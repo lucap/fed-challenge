@@ -6,7 +6,7 @@
 For this challenge, you will need to build a simple webpage.
 
 1) Open `code/index.html` and `code/index.css` in a text editor. The basic scaffolding of the page should already be in place.
-2) Your task if to create the page shown in `designs/page.png` and `designs/page.psd`
+2) Your task is to create the page shown in `designs/page.png` and `designs/page.psd`
 
 ### Notes
 * If you need to copy and paste text content, you can find it all in [`copy.txt`](https://github.com/qualialabs/fed-challenge/blob/master/copy.txt)
