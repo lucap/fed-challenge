@@ -6,10 +6,13 @@ html, body {
   font-family: "Lato", Arial, sans-serif;
   margin: 0px;
   padding: 0px;
+  height: 100%;
 }
 body {
   min-height: 100%;
   height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -33,7 +36,9 @@ h5 {
   background-color: rgb(136, 179, 146);
 }
 
-
+.content {
+  flex: 1 0 auto;
+}
 /*******************************
               Page
 *******************************/
@@ -63,7 +68,7 @@ h5 {
 }
 
 .footer {
-
+  flex-shrink: 0;
 }
 
 .footer-text {
@@ -86,11 +91,13 @@ h5 {
   .hero-graphic {
     display: none;
   }
+
+  .footer-landscape {
+    display: none !important;
+  }
 }
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
-  .footer-landscape {
-    display: none !important;
-  }
+
 }
