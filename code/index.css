@@ -22,7 +22,7 @@ h5 {
 
 
 .button {
-
+ /** TODO color gradient **/
 }
 
 .bg-pale-green {
@@ -45,6 +45,17 @@ h5 {
 .hero-logo {
   position: absolute;
   top: 10px;
+}
+
+.hero-graphic {
+  width: 500px;
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+
+.lead {
+  width: 400px;
 }
 
 .page {
