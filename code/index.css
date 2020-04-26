@@ -78,15 +78,19 @@ h5 {
 /* Small Monitor */
 @media only screen and (min-width: 1025px) and (max-width: 1199px) {
 
-
 }
 
 
 /* Tablet */
 @media screen and (max-width: 1024px) {
-
+  .hero-graphic {
+    display: none;
+  }
 }
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
+  .footer-landscape {
+    display: none !important;
+  }
 }
